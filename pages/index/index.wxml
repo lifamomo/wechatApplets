@@ -1,0 +1,67 @@
+<!--index.wxml-->
+<!--banner-->
+<swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:key="navItems">
+    <swiper-item>
+      <image  src="{{item}}" class="slide-image" width="100%"  height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+
+<!--导航栏-->
+<view class="daohang">
+  <view class="section__title">导航栏</view>
+  <view class="flex-wrp"  style="flex-direction:row;" >
+    <view class="flex-item" wx:for="{{daohang}}" wx:key="navItems" wx:for-item="item">
+        <image mode="{{item.mode}}" href="{{item.clickUrl}}" class="daohang-image" src="{{item.imageUrl}}"/>
+        <view class="daohang-location">{{item.location}}</view>
+    </view>
+  </view>
+</view>
+
+<!--天气-->
+<view class="index" style="margin-top: 80px; width: 100%">
+  <view class="hotcity-common" style="display:inline;">当前位置: </view>
+  <!--<view class="thisCityName">{{location}}{{county}}</view>-->
+  <view class="thisCityName">上海市 普陀区</view>
+  <view class="thisCityName" bindtap="jump">
+    <icon type="download" size="5" color='#2a579a' class='changeCity'/>
+    <text>更改定位</text>
+  </view>
+  <view class="weatherwrap" bindtap='gotoWeather'>
+    <!--显示当天的天气信息-->
+    <view class="info">
+      <!--城市名称 当前日期-->
+      <view class="city">{{location}} ({{today}})</view>
+      <!--当天温度-->
+      <view class="temp">{{weatherData.tmp}}℃</view>
+      <!--其他描述-->
+      <view class="weather">
+        <view>{{weatherData.cond_txt}}</view>
+        <view>{{weatherData.wind_dir}}</view>
+        <view>{{weatherData.wind_sc}}</view>
+        <view>PM2.5: {{air.pm25}}</view>
+        <view>{{air.qlty}}</view>
+      </view>
+      <view class="life" style='text-indent:1em;'>{{dress.txt}}</view>
+    </view>
+  </view>
+</view>
+
+
+
+<!--<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+
+</view>-->
