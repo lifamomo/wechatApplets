@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "red",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "最近天气",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light"
+}

@@ -25,7 +25,7 @@ Page({
     // daohang
     daohang:[{
         mode: 'scaleToFill',
-        clickUrl: "pages/logs/logs",
+        clickUrl: "pages/movies/movies",
         imageUrl: "http://pic.qiantucdn.com/58pic/16/72/48/09758PICdE2_1024.jpg!/fw/1024/watermark/url/L2ltYWdlcy93YXRlcm1hcmsveGlhb3R1LnBuZw==/align/center/crop/0x1024a0a0",
         location: "电影"
     },{
@@ -55,6 +55,7 @@ Page({
       dress:{
 
       }
+
   },
   //事件处理函数
   bindViewTap: function() {
@@ -68,6 +69,7 @@ Page({
           today: app.globalData.day
       });
       this.getLocation();
+
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
@@ -160,6 +162,17 @@ Page({
             url: '../switchcity/switchcity'
         });
     },
-    
+    // 使用该函数可以返回到首页
+    gotoWeather: function () {
+        wx.navigateTo({
+            url: '../weather/weather'
+        });
+    },
+    gotoNavigation: function (e) {
+        wx.navigateTo({
+            //url: e.currentTarget.dataset['index']
+            url : '../movies/movies'
+        });
+    }
     
 })

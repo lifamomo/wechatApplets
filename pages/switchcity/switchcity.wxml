@@ -3,8 +3,8 @@
   <input bindinput="bindKeyInput" bindblur="bindBlur" placeholder="输入城市名或拼音查询" placeholder-style="font-size: 30rpx" value="{{inputName}}"></input>
 </view>
 
+
 <view class="container-inner">
-  
   <!-- 右侧字母索引条 -->
   <view class="searchLetter touchClass">
     <view wx:for="{{searchLetter}}" style="color:#2a579a;font-size:20rpx;" wx:key="*this" data-letter="{{item.name}}" catchtouchend="clickLetter">{{item.name}}</view>

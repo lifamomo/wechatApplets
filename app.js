@@ -9,14 +9,12 @@ App({
 
     // 登录
     wx.login({
-
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
       }
     })
     // 获取用户信息
     wx.getSetting({
-
       success: res => {
         if (res.authSetting['scope.userInfo']) {
           // 已经授权，可以直接调用 getUserInfo 获取头像昵称，不会弹框
@@ -24,7 +22,6 @@ App({
             success: res => {
               // 可以将 res 发送给后台解码出 unionId
               this.globalData.userInfo = res.userInfo
-
               // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
               // 所以此处加入 callback 以防止这种情况
               if (this.userInfoReadyCallback) {
@@ -33,6 +30,7 @@ App({
             }
           })
         }
+
       }
     })
   },
@@ -41,6 +39,8 @@ App({
       day:'',
       locationApi: "https://apis.map.qq.com", // 获取位置信息
       heWeatherBase: "https://free-api.heweather.com", // 天气
+      //doubanBase: "https://api.douban.com",
+      doubanBase: "https://douban.uieee.com",
       tencentMapKey: "4HYBZ-EB23D-SLC42-HQ5R3-LP3LQ-OZFU5",
       heWeatherKey: "4a817b4338e04cc59bdb92da7771411e",
       defaultCity:'',

@@ -2,7 +2,11 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/switchcity/switchcity"
+    "pages/switchcity/switchcity",
+    "pages/weather/weather",
+    "pages/movies/movies",
+    "pages/movies/more-movie/more-movie",
+    "pages/movies/movie-detail/movie-detail"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -11,3 +15,4 @@
     "navigationBarTextStyle":"black"
   }
 }
+

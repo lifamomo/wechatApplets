@@ -2,17 +2,117 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="310336f2-6ee1-4491-978d-d0b263462d58" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/switchcity/switchcity.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/switchcity/switchcity.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/switchcity/switchcity.wxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/switchcity/switchcity.wxss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/UNSLEEP.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cidian.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/food.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hotel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icon/arrow-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icon/none-star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icon/star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icon/xx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/keji.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kuaidi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/marker_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/marker_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/more.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/more/more1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/more/more2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/more/more3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/more/more4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/more/more5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/purse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/report.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/service.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/tiyu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/101.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/102.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/103.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/104.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/200.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/201.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/202.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/203.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/204.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/205.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/206.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/207.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/208.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/209.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/210.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/211.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/212.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/213.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/300.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/301.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/302.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/303.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/304.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/305.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/306.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/307.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/308.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/309.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/310.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/311.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/312.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/313.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/401.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/402.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/403.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/404.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/405.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/406.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/407.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/500.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/501.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/502.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/503.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/504.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/507.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/508.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/900.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/901.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/999.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/qingtian.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/yintian.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/weather/yutian.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/yule.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/movie-detail/class/Movie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.wxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.wxss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/movie-list/movie-list-template.wxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/movie-list/movie-list-template.wxss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/movie.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/movie/movie-template.wxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/movie/movie-template.wxss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/movies.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/movies.wxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/movies.wxss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/stars/stars-template.wxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/movies/stars/stars-template.wxss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/weather/weather.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/weather/weather.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/weather/weather.wxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/weather/weather.wxss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.wxss" afterPath="$PROJECT_DIR$/app.wxss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/index/index.js" afterPath="$PROJECT_DIR$/pages/index/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/index/index.wxml" afterPath="$PROJECT_DIR$/pages/index/index.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/index/index.wxss" afterPath="$PROJECT_DIR$/pages/index/index.wxss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/util.js" afterPath="$PROJECT_DIR$/utils/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/switchcity/switchcity.js" afterPath="$PROJECT_DIR$/pages/switchcity/switchcity.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/switchcity/switchcity.wxml" afterPath="$PROJECT_DIR$/pages/switchcity/switchcity.wxml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,91 +126,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file leaf-file-name="movies.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/movies/movies.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-              <folding>
-                <element signature="e#350#862#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            <state relative-caret-position="432">
+              <caret line="96" column="35" lean-forward="true" selection-start-line="96" selection-start-column="35" selection-end-line="96" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/index/index.js">
+      <file leaf-file-name="movies.wxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/movies/movies.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="69" column="22" lean-forward="false" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="22" />
+            <state relative-caret-position="288">
+              <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="switchcity.wxml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/switchcity/switchcity.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#scroll-view#0;n#view#1;n#view#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="switchcity.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/switchcity/switchcity.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.wxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/index/index.wxml">
+      <file leaf-file-name="movie-list-template.wxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/movies/movie-list/movie-list-template.wxml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
               <folding>
-                <element signature="n#style#0;n#view#1;n#view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#view#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#view#0;n#view#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#view#3;n#view#0;n#view#2;n#view#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#scroll-view#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="switchcity.wxss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/switchcity/switchcity.wxss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.wxss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/index/index.wxss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -119,36 +162,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>slide-image</find>
-      <find>thisCityName</find>
-      <find>section__title</find>
-      <find>daohang-image</find>
-      <find>changeCity</find>
-      <find>temp</find>
-      <find>cond_txt</find>
-      <find>daohang</find>
-      <find>tmp</find>
-      <find>util</find>
-      <find>formatTime</find>
-      <find>globalData</find>
-      <find>defaultCounty</find>
-      <find>上海</find>
-      <find>heWeatherKey</find>
-      <find>weatherData</find>
-      <find>today</find>
-      <find>wind_sc</find>
-      <find>pm25</find>
-      <find>qlty</find>
-      <find>dress</find>
-      <find>county</find>
-      <find>reGetLocation</find>
-      <find>appInstance</find>
-      <find>tabBar</find>
-      <find>console</find>
-      <find>location</find>
-      <find>bindCounty</find>
-      <find>/index/index</find>
-      <find>jump</find>
+      <find>gotoWeather</find>
+      <find>auto</find>
+      <find>doubanBase</find>
+      <find>processDoubanData</find>
+      <find>containerShow</find>
+      <find>searchPanelShow</find>
+      <find>searchResult</find>
+      <find>top250</find>
+      <find>200rpx 0</find>
+      <find>scroll-x</find>
+      <find>200rpx</find>
+      <find>onMoreTap</find>
+      <find>movies-container</find>
+      <find>movie-container</find>
+      <find>image</find>
+      <find>image</find>
+      <find>movie-img</find>
+      <find>&lt;template is=&quot;starsTemplate&quot; data=&quot;{{stars:stars, score: average}}&quot; /&gt;</find>
+      <find>-webkit-scrollbar</find>
+      <find>container</find>
+      <find>cons</find>
+      <find>movieListTemplate</find>
+      <find>image {</find>
+      <find>overflow:hidden;</find>
+      <find>inTheaters</find>
+      <find>movieTemplate</find>
+      <find>head-img</find>
+      <find>comingSoon</find>
+      <find>length</find>
+      <find>getMovieListData</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,11 +202,26 @@
       <list>
         <option value="$PROJECT_DIR$/pages/logs/logs.wxml" />
         <option value="$PROJECT_DIR$/pages/index/index.wxss" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/pages/index/index.js" />
-        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/pages/weather/weather.js" />
+        <option value="$PROJECT_DIR$/pages/weather/weather.json" />
+        <option value="$PROJECT_DIR$/pages/weather/weather.wxml" />
+        <option value="$PROJECT_DIR$/pages/weather/weather.wxss" />
+        <option value="$PROJECT_DIR$/pages/switchcity/switchcity.wxml" />
         <option value="$PROJECT_DIR$/pages/switchcity/switchcity.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/pages/movies/more-movie/more-movie.js" />
+        <option value="$PROJECT_DIR$/pages/movies/movies.wxss" />
+        <option value="$PROJECT_DIR$/pages/movies/movie-list/movie-list-template.wxml" />
+        <option value="$PROJECT_DIR$/pages/movies/movie/movie-template.wxml" />
+        <option value="$PROJECT_DIR$/app.wxss" />
+        <option value="$PROJECT_DIR$/pages/movies/movie-list/movie-list-template.wxss" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/pages/movies/movie/movie-template.wxss" />
+        <option value="$PROJECT_DIR$/pages/movies/movie.json" />
+        <option value="$PROJECT_DIR$/pages/index/index.js" />
         <option value="$PROJECT_DIR$/pages/index/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/movies/movies.js" />
+        <option value="$PROJECT_DIR$/pages/movies/movies.wxml" />
       </list>
     </option>
   </component>
@@ -265,12 +323,6 @@
               <item name="wechatProject" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="wechatProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wechatProject" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="switchcity" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -284,11 +336,15 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="D:/nodejs/node" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wechatProject\pages\movies" />
       <recent name="D:\wechatProject\pages" />
+      <recent name="D:\wechatProject\images\weather" />
       <recent name="D:\wechatProject" />
+      <recent name="D:\wechatProject\pages\weather" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -316,12 +372,13 @@
       <workItem from="1532663995014" duration="3102000" />
       <workItem from="1532671528302" duration="209000" />
       <workItem from="1532671755771" duration="19304000" />
-      <workItem from="1532930416458" duration="15282000" />
+      <workItem from="1532930416458" duration="18249000" />
+      <workItem from="1533004925435" duration="22904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37897000" />
+    <option name="totallyTimeSpent" value="63768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -344,6 +401,24 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16741072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -356,62 +431,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#350#862#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="88" column="16" lean-forward="false" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="38" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#view#1;n#view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#0;n#view#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#3;n#view#0;n#view#2;n#view#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="e#350#862#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -431,85 +450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/logs/logs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#view#1;n#view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#0;n#view#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#3;n#view#0;n#view#2;n#view#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/logs/logs.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="e#350#862#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -561,14 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -596,52 +528,183 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.wxss">
+    <entry file="file://$PROJECT_DIR$/images/icon/star.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/marker_blue.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/keji.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/weather/207.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/weather/203.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/weather/210.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/weather/300.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/weather/weather.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        <state relative-caret-position="368">
+          <caret line="43" column="54" lean-forward="false" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
+    <entry file="file://$PROJECT_DIR$/pages/weather/weather.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="422">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/pages/weather/weather.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding>
-            <element signature="e#350#862#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.js">
+    <entry file="file://$PROJECT_DIR$/pages/weather/weather.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="69" column="22" lean-forward="false" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="22" />
+        <state relative-caret-position="36">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/switchcity/switchcity.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/switchcity/switchcity.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+        <state relative-caret-position="76">
+          <caret line="138" column="45" lean-forward="false" selection-start-line="138" selection-start-column="45" selection-end-line="138" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/switchcity/switchcity.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#scroll-view#0;n#view#1;n#view#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/stars/stars-template.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/switchcity/switchcity.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie-list/movie-list-template.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie-detail/class/Movie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1692">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movies.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/index/index.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="602">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#view#1;n#view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#view#1;n#!!top" expanded="true" />
@@ -651,7 +714,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/switchcity/switchcity.wxss">
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -659,13 +722,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/switchcity/switchcity.wxml">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        <state relative-caret-position="710">
+          <caret line="42" column="43" lean-forward="false" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie/movie-template.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/stars/stars-template.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie/movie-template.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="96" column="35" lean-forward="true" selection-start-line="96" selection-start-column="35" selection-end-line="96" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie-list/movie-list-template.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
           <folding>
-            <element signature="n#style#0;n#scroll-view#0;n#view#1;n#view#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#scroll-view#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movies.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>

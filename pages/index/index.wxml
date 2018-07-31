@@ -14,7 +14,7 @@
   <view class="section__title">导航栏</view>
   <view class="flex-wrp"  style="flex-direction:row;" >
     <view class="flex-item" wx:for="{{daohang}}" wx:key="navItems" wx:for-item="item">
-        <image mode="{{item.mode}}" href="{{item.clickUrl}}" class="daohang-image" src="{{item.imageUrl}}"/>
+        <image mode="{{item.mode}}" href="{{item.clickUrl}}" class="daohang-image" src="{{item.imageUrl}}" data-index="{{item.clickUrl}}" bindtap="gotoNavigation"/>
         <view class="daohang-location">{{item.location}}</view>
     </view>
   </view>
@@ -49,7 +49,8 @@
 
 
 
-<!--<view class="container">
+<!--
+<view class="container">
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>

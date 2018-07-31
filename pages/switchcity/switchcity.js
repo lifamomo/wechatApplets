@@ -136,42 +136,42 @@ Page({
     this.auto()
   },
   auto: function () {
-    let inputSd = this.data.inputName.trim()
-    let sd = inputSd.toLowerCase()
-    let num = sd.length
-    const cityList = city.cityObjs
-    let finalCityList = []
+    let inputSd = this.data.inputName.trim();
+    let sd = inputSd.toLowerCase();
+    let num = sd.length;
+    const cityList = city.cityObjs;
+    let finalCityList = [];
     let temp = cityList.filter(
       item => {
-        let text = item.short.slice(0, num).toLowerCase()
+        let text = item.short.slice(0, num).toLowerCase();
         return (text && text == sd)
       }
-    )
+    );
     //在城市数据中，添加简拼到“shorter”属性，就可以实现简拼搜索
     let tempShorter = cityList.filter(
       itemShorter => {
         if (itemShorter.shorter) {
-          let textShorter = itemShorter.shorter.slice(0, num).toLowerCase()
+          let textShorter = itemShorter.shorter.slice(0, num).toLowerCase();
           return (textShorter && textShorter == sd)
         }
         return
       }
-    )
+    );
     let tempChinese = cityList.filter(
       itemChinese => {
-        let textChinese = itemChinese.city.slice(0, num)
+        let textChinese = itemChinese.city.slice(0, num);
         return (textChinese && textChinese == sd)
       }
-    )
+    );
     if (temp[0]) {
       temp.map(
         item => {
           let testObj = {};
-          testObj.city = item.city
-          testObj.code = item.code
+          testObj.city = item.city;
+          testObj.code = item.code;
           finalCityList.push(testObj)
         }
-      )
+      );
       this.setData({
         completeList: finalCityList,
       })
@@ -179,8 +179,8 @@ Page({
       tempShorter.map(
         item => {
           let testObj = {};
-          testObj.city = item.city
-          testObj.code = item.code
+          testObj.city = item.city;
+          testObj.code = item.code;
           finalCityList.push(testObj)
         }
       );
@@ -191,15 +191,15 @@ Page({
       tempChinese.map(
         item => {
           let testObj = {};
-          testObj.city = item.city
-          testObj.code = item.code
+          testObj.city = item.city;
+          testObj.code = item.code;
           finalCityList.push(testObj)
-        })
+        });
       this.setData({
         completeList: finalCityList,
       })
     } else {
-      return
+      return;
     }
   },
   
