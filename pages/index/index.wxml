@@ -9,7 +9,6 @@
   </block>
 </swiper>
 
-
 <!--导航栏-->
 <view class="daohang">
   <view class="section__title">导航栏</view>
@@ -24,11 +23,9 @@
 <!--天气-->
 <view class="index" style="margin-top: 80px; width: 100%">
   <view class="hotcity-common" style="display:inline;">当前位置: </view>
-  <!--<view class="thisCityName">{{location}}{{county}}</view>-->
-  <view class="thisCityName">上海市 普陀区</view>
   <view class="thisCityName" bindtap="jump">
-    <icon type="download" size="5" color='#2a579a' class='changeCity'/>
-    <text>更改定位</text>
+      <icon type="download" size="15" color='#2a579a' class='changeCity'/>
+      {{location}}-{{county}}
   </view>
   <view class="weatherwrap" bindtap='gotoWeather'>
     <!--显示当天的天气信息-->
@@ -41,9 +38,9 @@
       <view class="weather">
         <view>{{weatherData.cond_txt}}</view>
         <view>{{weatherData.wind_dir}}</view>
-        <view>{{weatherData.wind_sc}}</view>
-        <view>PM2.5: {{air.pm25}}</view>
-        <view>{{air.qlty}}</view>
+        <view>风力:{{weatherData.wind_sc}}级</view>
+        <view>{{dress.brf}}</view>
+        <view>相对湿度:{{weatherData.hum}}</view>
       </view>
       <view class="life" style='text-indent:1em;'>{{dress.txt}}</view>
     </view>

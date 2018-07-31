@@ -37,7 +37,15 @@ App({
     })
   },
   globalData: {
-    userInfo: null,
+      userInfo: null,
+      day:'',
+      locationApi: "https://apis.map.qq.com", // 获取位置信息
+      heWeatherBase: "https://free-api.heweather.com", // 天气
+      tencentMapKey: "4HYBZ-EB23D-SLC42-HQ5R3-LP3LQ-OZFU5",
+      heWeatherKey: "4a817b4338e04cc59bdb92da7771411e",
+      defaultCity:'',
+      defaultCounty:'',
+      weatherData: '',
 
   }
 })

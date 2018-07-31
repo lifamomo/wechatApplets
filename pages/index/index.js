@@ -1,6 +1,8 @@
 //index.js
 //获取应用实例
 const app = getApp()
+var util = require('../../utils/util.js');
+
 Page({
   data: {
     motto: 'Hello World3123',
@@ -39,19 +41,20 @@ Page({
     }],
 
       // 天气
-      location: "上海市",
-      county: "普陀区",
-      today: "2018-7-27",
-      weatherData:[{
-          tmp:30,
-          cond_txt: "多云",
-          wind_dir: "微风",
-          wind_sc: "东风",
-          pm25: "",
-          qlty: "",
+      location: "",
+      county: "",
+      today: "",
+      weatherData:{
+          tmp:'',
+          cond_txt: "",
+          wind_dir: "",
+          wind_sc: "",
+          hum: "",
           txt: "描述"
-      }]
+      },
+      dress:{
 
+      }
   },
   //事件处理函数
   bindViewTap: function() {
@@ -60,7 +63,11 @@ Page({
     })
   },
   onLoad: function () {
-
+      app.globalData.day = util.formatTime(new Date()).split(' ')[0];
+      this.setData({
+          today: app.globalData.day
+      });
+      this.getLocation();
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
@@ -97,5 +104,62 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
+    getLocation: function(e){
+        let that = this;
+        wx.getLocation({
+            type: 'wgs84',
+            success: function(res) {
+                let latitude = res.latitude
+                let longitude = res.longitude
+                wx.request({
+                    url: `${app.globalData.locationApi}/ws/geocoder/v1/?location=${latitude},${longitude}&key=${app.globalData.tencentMapKey}`,
+                    success: res => {
+                        app.globalData.defaultCity = app.globalData.defaultCity ? app.globalData.defaultCity:res.data.result.ad_info.city;
+                        app.globalData.defaultCounty = app.globalData.defaultCounty ? app.globalData.defaultCounty :res.data.result.ad_info.district;
+                        that.setData({
+                            location: app.globalData.defaultCity,
+                            county: app.globalData.defaultCounty
+                        });
+                        that.getWeather();
+                    }
+                })
+            }
+        })
+    },
+    getWeather: function (e) {
+        var length = this.data.location.length;
+        var city = this.data.location.slice(0, length-1); //分割字符串
+        var that = this;
+        var param = {
+            key: app.globalData.heWeatherKey,
+            location: city
+        };
+        //发出请求
+        wx.request({
+            url: app.globalData.heWeatherBase + "/s6/weather",
+            data: param,
+            header: {
+                'content-type': 'application/json'
+            },
+            success: function (res) {
+                app.globalData.weatherData = res.data.HeWeather6[0].status == "unknown city" ? "" : res.data.HeWeather6[0];
+                var weatherData = app.globalData.weatherData ? app.globalData.weatherData.now : "暂无该城市天气信息";
+                var dress = app.globalData.weatherData ? res.data.HeWeather6[0].lifestyle[1] : { txt: "暂无该城市天气信息"};
+                that.setData({
+                    weatherData: weatherData, //今天天气情况数组
+                    dress: dress //生活指数
+                });
+            }
+        })
+    },
+    //点击更改定位切换到城市页面
+    jump: function () {
+        //关闭本页去切换城市，返回时就可以重新初始化定位信息哦
+        wx.reLaunch({
+            url: '../switchcity/switchcity'
+        });
+    },
+    
+    
 })
