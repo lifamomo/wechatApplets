@@ -1,0 +1,32 @@
+.container{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    padding:200px 0;
+    box-sizing:border-box;
+}
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userinfo-avatar {
+    width: 128px;
+    height: 128px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.userinfo-nickname {
+    color: #aaa;
+}
+
+.userinfo-button {
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+    background-image:  url("http://b389.photo.store.qq.com/psb?/V11IoDBE1Ahs0A/XsdvXB4uJnfq.OAg9hxzCAgyVIDLo7uskbaXoloW1bY!/c/dIUBAAAAAAAA&bo=XgIUAgAAAAABEH0!");
+    background-;
+}

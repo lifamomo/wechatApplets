@@ -6,6 +6,7 @@ Page({
         visible: false
     },
     onLoad: function(options) {
+        wx.showNavigationBarLoading();
         var movieId = options.id;
         var url = app.globalData.doubanBase +
             "/v2/movie/subject/" + movieId;
@@ -25,6 +26,7 @@ Page({
             this.setData({
                 visible: true
             });
+            wx.hideNavigationBarLoading();
         })
     },
 

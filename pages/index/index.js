@@ -1,6 +1,6 @@
 //index.js
 //获取应用实例
-const app = getApp()
+const app = getApp();
 var util = require('../../utils/util.js');
 
 Page({
@@ -98,14 +98,6 @@ Page({
         }
       })
     }
-  },
-  getUserInfo: function(e) {
-    //console.log(e)
-    app.globalData.userInfo = e.detail.userInfo
-    this.setData({
-      userInfo: e.detail.userInfo,
-      hasUserInfo: true
-    })
   },
     getLocation: function(e){
         let that = this;
